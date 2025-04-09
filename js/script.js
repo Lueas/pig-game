@@ -8,7 +8,7 @@ let playerName = ""; // store the player name
 
 function handleWelcome() {
   if (!hasStarted) {
-    // clear the game menu
+    // clear the game menus
     const gameMenu = document.getElementById("game-menu");
     gameMenu.innerHTML = "";
 
